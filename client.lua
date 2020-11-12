@@ -178,7 +178,7 @@ end)
 
 Citizen.CreateThread(function()
 	while true do
-		Wait(1)
+		Wait(1500)
 		if IsControlPressed(0,  Keys['F9']) and (GetGameTimer() - Time) > 500 then			
 			OpenCivilianActionsMenu()
 			Time = GetGameTimer()
